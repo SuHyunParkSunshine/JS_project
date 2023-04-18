@@ -66,13 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         let lastn = arr.findIndex((item) => item == 1);
                         console.log('find = ', lastn);
-                        box[lastn].innerHTML = '<img src="../Img/hart.png">';
+                        box[lastn].innerHTML = '<img src="./Img/hart.png">';
 
                     }
                 }
                 else {
                     //폭탄
-                    box.innerHTML = '<img src="../Img/boom.png">';
+                    box.innerHTML = '<img src="./Img/boom.png">';
                     flag = true;
                     document.querySelector('h2').innerHTML = '실패!!!'
                 }
